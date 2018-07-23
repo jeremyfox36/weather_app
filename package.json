@@ -1,0 +1,18 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "an app that displays the weather in the users location; also shows a random picture related to the weather",
+  "main": "weather.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jem Fox",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}

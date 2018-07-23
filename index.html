@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Weather</title>
+	<script type="text/javascript" src="weather.js"></script>
+	<link rel="stylesheet" type="text/css" href="weather.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+</head>
+<body>
+
+<div class="ui two column centered grid">
+	
+	<div class="column">
+		<div class="ui center aligned segment">
+		<h1 class="ui huge header centered">Weather <i class="sun icon"></i> App</h1>
+		<h1 class="ui huge header centered" id="location"></h1>
+		<h3 id="description" class="ui header centered"></h3>
+			<img id="icon" src="" class="ui centered image">
+				<strong id="temp"></strong><a id="tempUnits" onclick="convertTemp()"></a>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

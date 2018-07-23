@@ -1,0 +1,8 @@
+#tempUnits:hover {
+	cursor: pointer;
+}
+
+#tempUnits {
+	color: blue;
+	font-weight: bold;
+}
